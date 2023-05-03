@@ -160,6 +160,9 @@ border-radius: 50% ;
 border: solid 2px gold; 
 }
 
+.boxes {
+    padding-top: 50px;
+}
 /* Portofolio */
 
 .portofolio {
@@ -189,6 +192,10 @@ border: solid 2px gold;
     font-style: italic;
 }
 
+.services-images-row {
+    padding-top: 50px;
+}
+
 /* Footer */
 i{
     text-align: center;
@@ -205,12 +212,17 @@ i{
     color: #fff;   
 }
 
+.media a {
+    font-size: 0;
+}
+
 .logo2 {
     
     list-style-type: none;   
     color: black;
     display: flex;
     justify-content: start;
+    
 }
 
 .media {
@@ -220,9 +232,9 @@ i{
     
 }
 
- .media .logo {
+ .media .logo3 {
     padding: 0 15px;
- }
+}
 
  .container-footer .media {
     z-index: 1;
@@ -233,3 +245,4 @@ section .footer {
     justify-content: center;
     align-items: center;
 }
+
